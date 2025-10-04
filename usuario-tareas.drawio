@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J9VA7IRSwFvSvSfeFG77-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CASO PRÁCTICO&lt;/h1&gt;&lt;p&gt;Gestión de usuarios y tareas.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="840" height="900" as="geometry" />
+          <mxGeometry x="10" y="10" width="600" height="880" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-1" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Datacenter o proveedor de servicios" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;arcSize=5;align=left;verticalAlign=top;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="180" y="220" width="570" height="630" as="geometry" />
+          <mxGeometry x="30" y="240" width="570" height="630" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="J9VA7IRSwFvSvSfeFG77-7" target="J9VA7IRSwFvSvSfeFG77-3">
           <mxGeometry relative="1" as="geometry" />
@@ -27,10 +27,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-7" value="Entorno de gestión de contenedores" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;arcSize=5;align=center;verticalAlign=top;fontStyle=1;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="324" y="490" width="270" height="150" as="geometry" />
+          <mxGeometry x="174" y="510" width="396" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-3" value="Balanceador de cargas" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="1">
-          <mxGeometry x="440" y="372" width="40" height="40" as="geometry" />
+          <mxGeometry x="351" y="392" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="J9VA7IRSwFvSvSfeFG77-4" target="J9VA7IRSwFvSvSfeFG77-3">
           <mxGeometry relative="1" as="geometry" />
@@ -41,13 +41,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-4" value="Firewall" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" vertex="1" parent="1">
-          <mxGeometry x="440" y="238" width="40" height="40" as="geometry" />
+          <mxGeometry x="351" y="258" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
-          <mxGeometry x="304" y="470" width="40" height="40" as="geometry" />
+          <mxGeometry x="154" y="490" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="J9VA7IRSwFvSvSfeFG77-6" value="gestion&lt;div&gt;usuarios&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="384" y="545" width="40" height="40" as="geometry" />
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-6" value="&lt;div&gt;Backed&lt;/div&gt;gestion&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;usuarios&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="216" y="565" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="J9VA7IRSwFvSvSfeFG77-10" target="J9VA7IRSwFvSvSfeFG77-4">
           <mxGeometry relative="1" as="geometry" />
@@ -58,19 +58,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-10" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
-          <mxGeometry x="436" y="60" width="50" height="50" as="geometry" />
+          <mxGeometry x="347" y="80" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="J9VA7IRSwFvSvSfeFG77-12" value="gestion&lt;div&gt;tareas&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="504" y="545" width="40" height="40" as="geometry" />
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-12" value="&lt;div&gt;backed&lt;/div&gt;gestion&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tareas&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="351" y="565" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-14" value="PostgreSQL 17&lt;div&gt;Base de datos: prueba&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;arcSize=5;align=center;verticalAlign=top;fontStyle=1;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="325" y="691" width="270" height="150" as="geometry" />
+          <mxGeometry x="175" y="711" width="395" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J9VA7IRSwFvSvSfeFG77-13" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="304" y="681" width="40" height="53.33" as="geometry" />
+          <mxGeometry x="154" y="701" width="40" height="53.33" as="geometry" />
         </mxCell>
-        <mxCell id="J9VA7IRSwFvSvSfeFG77-18" value="Esquema:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;usuario&amp;gt;&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="366" y="751" width="120" height="60" as="geometry" />
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-18" value="Esquema:&lt;div&gt;&amp;lt;&amp;lt;usuario&amp;gt;&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="216" y="771" width="324" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-21" value="Fronted" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="480" y="565" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-22" value="Usuario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="785.5" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J9VA7IRSwFvSvSfeFG77-23" value="Tarea" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="785.5" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
