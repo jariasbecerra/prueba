@@ -45,3 +45,11 @@ CREATE TABLE IF NOT EXISTS usuario.tarea (
 
 -- Asignar propietario
 ALTER TABLE usuario.tarea OWNER TO postgres;
+
+
+-- insertar un usuario de pruebas inicial
+-- id usuario: 1
+-- clave: clase123
+INSERT INTO usuario.usuario
+(id, contrasena, primer_nombre, segundo_nombre, primer_apellido, segundo_apellido)
+VALUES('1', '$2b$10$gCqDhwyEtcPQrPmFjPNyhe.7X5zOWIZ.j8r/nCLiW0COGQ2o8jzi6', 'usuario', 'nombre 2', 'apellido', 'clase123');
